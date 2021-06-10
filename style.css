@@ -1,6 +1,14 @@
-body {
+@import url('https://rsms.me/inter/inter.css');
+
+main {
+  box-sizing: border-box;
+}
+html, body {
   background: #191765;
-  position: relative;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 header {
@@ -12,7 +20,7 @@ header {
   height: 1rem;
   left: 12px;
   top: 10px;
-  margin-left: 24px;
+  margin:20px 24px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -85,8 +93,7 @@ header {
 }
 
 .dividing-line {
-  margin-left: 24px;
-  margin-right: 24px;
+  margin: 8px 20px;
   top: calc(50% - 0px / 2 + 0.5px);
   border: 1px solid #646369;
 }
@@ -163,4 +170,173 @@ header {
 
 ul {
   list-style-type: none;
+}
+
+.work-arrow-container {
+  display: flex;
+  justify-content: center;
+}
+
+.work-arrow {
+  background: #191765;
+  background-image: url("./images/work-arrow.jpg");
+  width: 1.125rem;
+  height: 22px;
+  left: 0px;
+  top: 9.35px;
+  margin: 20px 12px;
+  text-align: center;
+}
+
+.work-arrow-text {
+  display: inline;
+  width: 47px;
+  height: 32px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #a2a3ae;
+}
+
+.works-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+}
+
+.elipse-multi-post {
+  background-image: url("./images/elipse-multi-post.jpg");
+  position: absolute;
+  width: 39.61px;
+  height: 482.57px;
+  left: -42.04px;
+  top: 1464.71px;
+  background: #edecff;
+  filter: blur(30px);
+  transform: rotate(-36.38deg);
+}
+
+.elipse-multi-post-2 {
+  background-image: url("./images/elipse-multi-post-2.jpg");
+  position: absolute;
+  width: 60.28px;
+  height: 261.6px;
+  left: 327.27px;
+  top: 2287.23px;
+  background: #edecff;
+  filter: blur(40px);
+  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+}
+
+.elipse-multi-post-3{
+  background-image: url("./images/elipse-multi-post-3.jpg");
+  position: absolute;
+  width: 308px;
+  height: 155px;
+  left: -93px;
+  top: 3174px;
+  background: rgba(237, 236, 255, 0.3);
+  filter: blur(35px);
+}
+
+.elipse-multi-post-4{
+  background-image: url("./images/elipse-multi-post-4.jpg");
+  position: absolute;
+  width: 45.29px;
+  height: 357.04px;
+  left: 380.22px;
+  top: 3853px;
+  background: #EDECFF;
+  filter: blur(45px);
+  background-size: cover;
+  transform: matrix(-0.22, 0.85, 0.85, 0.26, 0, 0);
+}
+
+.works-headline {
+  width: 327px;
+  height: 104px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  color: #9490ff;
+}
+
+.work-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-card-heading {
+  width: 20rem;
+  height: 55px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.work-card-description {
+  position: static;
+  width: 327px;
+  height: 204px;
+  left: 0px;
+  top: 50px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #dcdce8;
+}
+
+.work-card-skills-container {
+  display: flex;
+}
+
+.work-card-skills-description {
+  margin: 0px 10px;
+  padding: 0px 12px;
+  height: 20px;
+  border-right: 1px solid #555555;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.938rem;
+  line-height: 1.25rem;
+  color: #fff;
+}
+
+.see-project-button {
+  margin-left: 3rem;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  background: #7D73FC;
+  display: flex;
+}
+
+.see-project-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
