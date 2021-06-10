@@ -1,0 +1,166 @@
+body {
+  background: #191765;
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text {
+  height: 1rem;
+  left: 12px;
+  top: 10px;
+  margin-left: 24px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #fff;
+  display: inline-block;
+}
+
+.header-icon {
+  color: #fff;
+  margin: 20px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.background-image-top-left {
+  background: #edecff;
+  background-image: url("./images/elipse-top-left.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: -106px;
+  top: 6rem;
+  filter: blur(50px);
+}
+
+.headline-text-1 {
+  margin-left: 24px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  text-align: center;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
+}
+
+.headline-text-2 {
+  margin-left: 24px;
+  margin-top: 12px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  text-align: center;
+  color: #edecff;
+}
+
+.headline-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline-text-3 {
+  margin-left: 24px;
+  margin-top: 30px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: #c8c8d4;
+}
+
+.dividing-line {
+  margin-left: 24px;
+  margin-right: 24px;
+  top: calc(50% - 0px / 2 + 0.5px);
+  border: 1px solid #646369;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 36px;
+  margin-right: 36px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.skill-item {
+  padding: 5px;
+  width: 40%;
+}
+
+.skill-item-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #9490ff;
+}
+
+.skill-item-language {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #f5f5ff;
+}
+
+.background-image-middle-right {
+  background: #edecff;
+  background-image: url("./images/elipse-middle-right.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 19rem;
+  top: 495px;
+  filter: blur(50px);
+}
+
+.social a {
+  color: #dbd8d7;
+}
+
+.social a:hover {
+  color: black;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  padding-top: 22px;
+  padding-left: 34px;
+}
+
+.social-icon {
+  flex: 2;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
