@@ -3,10 +3,9 @@
 main {
   box-sizing: border-box;
 }
-html, body {
+
+body {
   background: #191765;
-  margin: 0px;
-  padding: 0px;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -20,7 +19,7 @@ header {
   height: 1rem;
   left: 12px;
   top: 10px;
-  margin:20px 24px;
+  margin: 20px 24px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -182,7 +181,7 @@ ul {
   background-image: url("./images/work-arrow.jpg");
   width: 1.125rem;
   height: 22px;
-  left: 0px;
+  left: 2px;
   top: 9.35px;
   margin: 20px 12px;
   text-align: center;
@@ -212,48 +211,48 @@ ul {
 }
 
 .elipse-multi-post {
+  background: #edecff;
   background-image: url("./images/elipse-multi-post.jpg");
   position: absolute;
   width: 39.61px;
   height: 482.57px;
   left: -42.04px;
   top: 1464.71px;
-  background: #edecff;
   filter: blur(30px);
   transform: rotate(-36.38deg);
 }
 
 .elipse-multi-post-2 {
+  background: #edecff;
   background-image: url("./images/elipse-multi-post-2.jpg");
   position: absolute;
   width: 60.28px;
   height: 261.6px;
   left: 327.27px;
   top: 2287.23px;
-  background: #edecff;
   filter: blur(40px);
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
 }
 
-.elipse-multi-post-3{
+.elipse-multi-post-3 {
+  background: rgba(237, 236, 255, 0.3);
   background-image: url("./images/elipse-multi-post-3.jpg");
   position: absolute;
   width: 308px;
   height: 155px;
   left: -93px;
   top: 3174px;
-  background: rgba(237, 236, 255, 0.3);
   filter: blur(35px);
 }
 
-.elipse-multi-post-4{
+.elipse-multi-post-4 {
+  background: #edecff;
   background-image: url("./images/elipse-multi-post-4.jpg");
   position: absolute;
   width: 45.29px;
   height: 357.04px;
   left: 380.22px;
   top: 3853px;
-  background: #EDECFF;
   filter: blur(45px);
   background-size: cover;
   transform: matrix(-0.22, 0.85, 0.85, 0.26, 0, 0);
@@ -295,7 +294,7 @@ ul {
   position: static;
   width: 327px;
   height: 204px;
-  left: 0px;
+  left: 1px;
   top: 50px;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -310,10 +309,10 @@ ul {
 }
 
 .work-card-skills-description {
-  margin: 0px 10px;
-  padding: 0px 12px;
+  margin: 1px 10px;
+  padding: 1px 12px;
   height: 20px;
-  border-right: 1px solid #555555;
+  border-right: 1px solid #555;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -326,7 +325,7 @@ ul {
   margin-left: 3rem;
   margin-bottom: 10px;
   align-self: flex-start;
-  background: #7D73FC;
+  background: #7d73fc;
   display: flex;
 }
 
