@@ -1,12 +1,7 @@
 @import url('https://rsms.me/inter/inter.css');
 
-main {
-  box-sizing: border-box;
-}
-
 body {
   background: #191765;
-  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -48,6 +43,7 @@ header {
   left: -106px;
   top: 6rem;
   filter: blur(50px);
+  overflow-x: hidden;
 }
 
 .headline-text-1 {
@@ -56,7 +52,6 @@ header {
   font-style: normal;
   font-weight: bold;
   font-size: 3rem;
-  line-height: 4.5rem;
   text-align: center;
   letter-spacing: 0.37px;
   color: #7d73fc;
@@ -69,7 +64,6 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-  line-height: 2.75rem;
   text-align: center;
   color: #edecff;
 }
@@ -92,9 +86,9 @@ header {
 }
 
 .dividing-line {
-  margin: 8px 20px;
-  top: calc(50% - 0px / 2 + 0.5px);
-  border: 1px solid #646369;
+  margin-top: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #646369;
 }
 
 .skills-container {
@@ -149,6 +143,15 @@ header {
 
 .social a {
   color: #dbd8d7;
+}
+
+.see-project-button a {
+  color: white;
+  text-decoration: none;
+}
+.see-project-button a:hover {
+  text-decoration: none;
+  color: red;
 }
 
 .social a:hover {
@@ -214,11 +217,11 @@ ul {
   background: #edecff;
   background-image: url("./images/elipse-multi-post.jpg");
   position: absolute;
-  width: 39.61px;
+  width: 49.61px;
   height: 482.57px;
   left: -42.04px;
   top: 1464.71px;
-  filter: blur(30px);
+  filter: blur(50px);
   transform: rotate(-36.38deg);
 }
 
@@ -226,32 +229,33 @@ ul {
   background: #edecff;
   background-image: url("./images/elipse-multi-post-2.jpg");
   position: absolute;
-  width: 60.28px;
+  width: 58.28px;
   height: 261.6px;
-  left: 327.27px;
-  top: 2287.23px;
+  left: 237.27px;
+  top: 2227.23px;
   filter: blur(40px);
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+  overflow: hidden;
 }
 
 .elipse-multi-post-3 {
-  background: rgba(237, 236, 255, 0.3);
+  background: rgba(207, 186, 235, 0.3);
   background-image: url("./images/elipse-multi-post-3.jpg");
   position: absolute;
   width: 308px;
   height: 155px;
   left: -93px;
   top: 3174px;
-  filter: blur(35px);
+  filter: blur(70px);
 }
 
 .elipse-multi-post-4 {
   background: #edecff;
   background-image: url("./images/elipse-multi-post-4.jpg");
   position: absolute;
-  width: 45.29px;
+  width: 41.29px;
   height: 357.04px;
-  left: 380.22px;
+  left: 190.22px;
   top: 3853px;
   filter: blur(45px);
   background-size: cover;
@@ -259,14 +263,10 @@ ul {
 }
 
 .works-headline {
-  width: 327px;
-  height: 104px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
-  line-height: 52px;
-  align-items: center;
+  font-size: 2.25rem;
   color: #9490ff;
 }
 
@@ -292,7 +292,7 @@ ul {
 
 .work-card-description {
   position: static;
-  width: 327px;
+  width: 300px;
   height: 204px;
   left: 1px;
   top: 50px;
@@ -306,23 +306,24 @@ ul {
 
 .work-card-skills-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .work-card-skills-description {
-  margin: 1px 10px;
-  padding: 1px 12px;
-  height: 20px;
+  margin: 5px;
+  padding: 8px;
   border-right: 1px solid #555;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 0.938rem;
-  line-height: 1.25rem;
   color: #fff;
 }
 
 .see-project-button {
-  margin-left: 3rem;
+  width: 89px;
+  height: 48px;
+  margin-top: 18px;
   margin-bottom: 10px;
   align-self: flex-start;
   background: #7d73fc;
@@ -332,10 +333,12 @@ ul {
 .see-project-text {
   font-family: Roboto, sans-serif;
   font-style: normal;
-  padding: 10px;
+  padding-left: 15px;
+  padding-right: 2px;
+  padding-top: 4px;
   font-weight: 500;
   font-size: 12px;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.03em;
+  color: #edecff;
 }
