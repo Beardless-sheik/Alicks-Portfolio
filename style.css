@@ -86,10 +86,10 @@ header {
 }
 
 .dividing-line {
-  margin-top: 10px;
+  margin: 10px 1px;
   overflow: hidden;
   border-bottom: 1px solid #646369;
-  width: 90%;
+  width: 95%;
 }
 
 .skills-container {
@@ -277,7 +277,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2px 24px;
+  padding: 2px 14px;
 }
 
 .work-card-heading {
@@ -317,7 +317,7 @@ ul {
 }
 
 .see-project-button {
-  margin: 30px 1px 5px 20px;
+  margin: 30px 1px 40px 5px;
   width: 89px;
   height: 48px;
   background: #7d73fc;
