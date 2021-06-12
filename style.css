@@ -89,6 +89,7 @@ header {
   margin-top: 10px;
   overflow: hidden;
   border-bottom: 1px solid #646369;
+  width: 90%;
 }
 
 .skills-container {
@@ -230,9 +231,9 @@ ul {
   background: #edecff;
   background-image: url("./images/elipse-multi-post-2.jpg");
   position: absolute;
-  width: 58.28px;
-  height: 261.6px;
-  left: 237.27px;
+  width: 48.28px;
+  height: 221.6px;
+  left: 187.27px;
   top: 2227.23px;
   filter: blur(40px);
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
@@ -276,59 +277,52 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2px 24px;
 }
 
 .work-card-heading {
-  width: 20rem;
-  height: 55px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
+  font-size: 2rem;
+  justify-content: center;
   align-items: center;
   color: #fff;
 }
 
 .work-card-description {
-  position: static;
-  width: 300px;
-  height: 204px;
-  left: 1px;
-  top: 50px;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 26px;
   color: #dcdce8;
 }
 
 .work-card-skills-container {
   display: flex;
-  flex-wrap: wrap;
+  align-self: flex-start;
+  padding-left: 5px;
 }
 
 .work-card-skills-description {
-  margin: 5px;
-  padding: 8px;
+  padding: 2px 8px;
+  margin-left: 5px;
+  margin-top: 28px;
   border-right: 1px solid #555;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.938rem;
+  font-size: 0.838rem;
   color: #fff;
 }
 
 .see-project-button {
+  margin: 30px 1px 5px 20px;
   width: 89px;
   height: 48px;
-  margin-top: 18px;
-  margin-bottom: 10px;
-  align-self: flex-start;
   background: #7d73fc;
   display: flex;
+  align-self: flex-start;
 }
 
 .see-project-text {
