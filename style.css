@@ -1,6 +1,8 @@
+@import url('https://rsms.me/inter/inter.css');
+
 body {
   background: #191765;
-  position: relative;
+  overflow-x: hidden;
 }
 
 header {
@@ -12,7 +14,7 @@ header {
   height: 1rem;
   left: 12px;
   top: 10px;
-  margin-left: 24px;
+  margin: 20px 24px;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -41,6 +43,7 @@ header {
   left: -106px;
   top: 6rem;
   filter: blur(50px);
+  overflow-x: hidden;
 }
 
 .headline-text-1 {
@@ -49,7 +52,6 @@ header {
   font-style: normal;
   font-weight: bold;
   font-size: 3rem;
-  line-height: 4.5rem;
   text-align: center;
   letter-spacing: 0.37px;
   color: #7d73fc;
@@ -62,7 +64,6 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-  line-height: 2.75rem;
   text-align: center;
   color: #edecff;
 }
@@ -85,10 +86,10 @@ header {
 }
 
 .dividing-line {
-  margin-left: 24px;
-  margin-right: 24px;
-  top: calc(50% - 0px / 2 + 0.5px);
-  border: 1px solid #646369;
+  margin: 10px 1px;
+  overflow: hidden;
+  border-bottom: 1px solid #646369;
+  width: 100%;
 }
 
 .skills-container {
@@ -145,6 +146,16 @@ header {
   color: #dbd8d7;
 }
 
+.see-project-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.see-project-button a:hover {
+  text-decoration: none;
+  color: red;
+}
+
 .social a:hover {
   color: black;
 }
@@ -163,4 +174,166 @@ header {
 
 ul {
   list-style-type: none;
+}
+
+.work-arrow-container {
+  display: flex;
+  justify-content: center;
+}
+
+.work-arrow {
+  background: #191765;
+  background-image: url("./images/work-arrow.jpg");
+  width: 1.125rem;
+  height: 22px;
+  left: 2px;
+  top: 9.35px;
+  margin: 20px 12px;
+  text-align: center;
+}
+
+.work-arrow-text {
+  display: inline;
+  width: 47px;
+  height: 32px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #a2a3ae;
+}
+
+.works-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+}
+
+.elipse-multi-post {
+  background: #edecff;
+  background-image: url("./images/elipse-multi-post.jpg");
+  position: absolute;
+  width: 49.61px;
+  height: 482.57px;
+  left: -42.04px;
+  top: 1464.71px;
+  filter: blur(50px);
+  transform: rotate(-36.38deg);
+}
+
+.elipse-multi-post-2 {
+  background: #edecff;
+  background-image: url("./images/elipse-multi-post-2.jpg");
+  position: absolute;
+  width: 48.28px;
+  height: 221.6px;
+  left: 187.27px;
+  top: 2227.23px;
+  filter: blur(40px);
+  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+  overflow: hidden;
+}
+
+.elipse-multi-post-3 {
+  background: rgba(207, 186, 235, 0.3);
+  background-image: url("./images/elipse-multi-post-3.jpg");
+  position: absolute;
+  width: 308px;
+  height: 155px;
+  left: -93px;
+  top: 3174px;
+  filter: blur(70px);
+}
+
+.elipse-multi-post-4 {
+  background: #edecff;
+  background-image: url("./images/elipse-multi-post-4.jpg");
+  position: absolute;
+  width: 41.29px;
+  height: 357.04px;
+  left: 190.22px;
+  top: 3853px;
+  filter: blur(45px);
+  background-size: cover;
+  transform: matrix(-0.22, 0.85, 0.85, 0.26, 0, 0);
+}
+
+.works-headline {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.25rem;
+  color: #9490ff;
+}
+
+.work-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 14px;
+}
+
+.work-card-heading {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.work-card-description {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #dcdce8;
+}
+
+.work-card-skills-container {
+  display: flex;
+  align-self: flex-start;
+  padding-left: 5px;
+}
+
+.work-card-skills-description {
+  padding: 2px 8px;
+  margin-left: 5px;
+  margin-top: 28px;
+  border-right: 1px solid #555;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.838rem;
+  color: #fff;
+}
+
+.see-project-button {
+  margin: 30px 1px 40px 5px;
+  width: 89px;
+  height: 48px;
+  background: #7d73fc;
+  display: flex;
+  align-self: flex-start;
+}
+
+.see-project-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  padding-left: 15px;
+  padding-right: 2px;
+  padding-top: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  color: #edecff;
 }
