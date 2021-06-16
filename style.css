@@ -86,7 +86,7 @@ header {
   margin: 10px 1px;
   overflow: hidden;
   border-bottom: 1px solid #646369;
-  width: 0%;
+  width: 100%;
 }
 
 .image-placeholder {
@@ -454,12 +454,21 @@ textarea {
   padding: 18px;
 }
 
+.get-in-touch-text:hover {
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.get-in-touch-text:focus {
+  background: #5e42d7;
+}
+
 form button:hover {
   outline: none;
 }
 
 .social-footer {
-  padding-top: 90px;
+  padding-top: 25px;
 }
 
 .footer-email {
@@ -470,4 +479,11 @@ form button:hover {
   line-height: 1.75rem;
   text-align: center;
   color: #ebebff;
+}
+
+.dividing-line-footer {
+  margin: 71px 1px auto 1px;
+  overflow: hidden;
+  border-bottom: 1px solid #646369;
+  width: 100%;
 }
