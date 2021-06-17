@@ -9,6 +9,12 @@ header {
   justify-content: space-between;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .header-text {
   height: 1rem;
   margin: 20px 24px;
@@ -28,6 +34,8 @@ header {
 .headline {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .background-image-top-left {
@@ -68,10 +76,13 @@ header {
 .headline-2 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .headline-text-3 {
   margin-left: 24px;
+  margin-right: 24px ;
   margin-top: 30px;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -97,16 +108,14 @@ header {
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 36px;
-  margin-right: 36px;
+  justify-content: center;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .skill-item {
   padding: 5px;
-  width: 40%;
+  flex-grow: 1;
 }
 
 .skill-item-title {
@@ -163,17 +172,13 @@ header {
 
 .social {
   display: flex;
-  justify-content: center;
-  padding-top: 22px;
-  padding-left: 34px;
 }
 
 .social-icon {
-  flex: 2;
   margin: 10px;
 }
 
-.work-arrow-container {
+.work-arrow-container-mobile {
   display: flex;
   justify-content: center;
 }
@@ -199,6 +204,12 @@ header {
   font-size: 20px;
   text-align: center;
   color: #a2a3ae;
+}
+
+.social-icon-list {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .works-section {
@@ -267,14 +278,19 @@ header {
   font-weight: 500;
   font-size: 2.25rem;
   color: #9490ff;
+  text-align: center;
 }
 
-.work-card-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.work-card-container-outer {
+  display: grid;
+  justify-items: center;
   align-items: center;
   padding: 2px 14px;
+}
+
+.work-card-container-inner {
+  display: grid;
+  justify-items: center;
 }
 
 .work-card-heading {
@@ -486,4 +502,112 @@ form button:hover {
   overflow: hidden;
   border-bottom: 1px solid #646369;
   width: 100%;
+}
+
+.work-arrow-container-desktop {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .works-headline {
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header-text {
+    margin: 26px auto auto 9rem;
+    font-size: 1.125rem;
+  }
+
+  .headline-text-1 {
+    font-size: 5.625rem;
+    margin-bottom: 12px;
+  }
+
+  .headline-text-2 {
+    font-size: 2.5rem;
+  }
+
+  .headline-2 {
+    max-width: 447px;
+    margin: auto;
+  }
+  .social {
+    margin: 6rem 8rem 12rem 8rem;
+  }
+
+  .social-icon-list {
+    display: flex;
+    justify-content: center;
+    flex-grow: 6;
+  }
+
+  .work-arrow-container-mobile {
+    display: none;
+  }
+
+  .work-arrow-container-desktop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .works-headline {
+    text-transform: initial;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-left: 8rem;
+    text-align: initial;
+  }
+
+  .works-section {
+    margin: auto 8rem;
+  }
+
+  .work-card-container-outer {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px ;
+    margin: auto 142px;
+  }
+
+  .work-card-container-inner {
+    justify-items: initial;
+  }
+
+  .image-placeholder {
+    width: 38.75rem;
+    height: 28rem;
+  }
+
+  .grid-container {
+    grid-row-gap: 80px;
+  }
+
+  .grid-order-first {
+    order: 1;
+  }
+
+  .grid-order-last {
+    order: 2;
+  }
+
+  footer {
+    max-width: 684px;
+    margin: auto;
+  }
+
+  .dividing-line-footer, .footer-email {
+    display: none;
+  }
+
+  .footer-email-desktop {
+    margin-left: 12px;
+    padding-bottom: 10px;
+    margin-top: 12px;
+  }
+
+  .social-footer-desktop {
+    margin-bottom: 20px;
+  }
+
 }
