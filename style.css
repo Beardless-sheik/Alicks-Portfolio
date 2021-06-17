@@ -2,7 +2,6 @@
 
 body {
   background: #191765;
-  overflow-x: hidden;
 }
 
 header {
@@ -12,8 +11,6 @@ header {
 
 .header-text {
   height: 1rem;
-  left: 12px;
-  top: 10px;
   margin: 20px 24px;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -40,8 +37,8 @@ header {
   position: absolute;
   width: 160px;
   height: 160px;
-  left: -106px;
-  top: 6rem;
+  left: -86px;
+  top: 72px;
   filter: blur(50px);
   overflow-x: hidden;
 }
@@ -92,6 +89,11 @@ header {
   width: 100%;
 }
 
+.image-placeholder {
+  width: 17rem;
+  height: 236px;
+}
+
 .skills-container {
   display: flex;
   flex-wrap: wrap;
@@ -137,7 +139,7 @@ header {
   position: absolute;
   width: 68px;
   height: 68px;
-  left: 19rem;
+  left: 17rem;
   top: 495px;
   filter: blur(50px);
 }
@@ -153,7 +155,6 @@ header {
 
 .see-project-button a:hover {
   text-decoration: none;
-  color: red;
 }
 
 .social a:hover {
@@ -170,10 +171,6 @@ header {
 .social-icon {
   flex: 2;
   margin: 10px;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .work-arrow-container {
@@ -220,8 +217,8 @@ ul {
   background-image: url("./images/elipse-multi-post.jpg");
   position: absolute;
   width: 49.61px;
-  height: 482.57px;
-  left: -42.04px;
+  height: 462.57px;
+  left: 42.04px;
   top: 1464.71px;
   filter: blur(50px);
   transform: rotate(-36.38deg);
@@ -233,7 +230,7 @@ ul {
   position: absolute;
   width: 48.28px;
   height: 221.6px;
-  left: 187.27px;
+  left: 127.27px;
   top: 2227.23px;
   filter: blur(40px);
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
@@ -336,4 +333,157 @@ ul {
   align-items: center;
   text-align: center;
   color: #edecff;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+footer h2 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  text-align: center;
+  color: #9390ff;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+footer p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #f5f5ff;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.name-input-container {
+  background-color: #fff;
+  padding: 15px 16px 15px 16px;
+  margin: 24px;
+}
+
+.email-input-container {
+  background-color: #fff;
+  padding: 15px 16px 15px 16px;
+  margin: 1.5rem;
+}
+
+.text-area-container {
+  background-color: #fff;
+  padding: 15px 16px 15px 16px;
+  margin: 1.5rem;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+textarea {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  height: 8rem;
+}
+
+#name {
+  width: 100%;
+  outline: none;
+}
+
+#name:focus {
+  outline: none;
+}
+
+#email {
+  width: 100%;
+  outline: none;
+}
+
+#email:focus {
+  outline: none;
+}
+
+#message {
+  width: 100%;
+  outline: none;
+}
+
+#message:focus {
+  outline: none;
+}
+
+.get-in-touch-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.get-in-touch-text {
+  background: #7d73fc;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #edecff;
+  text-decoration: none;
+  border: none;
+  padding: 18px;
+}
+
+.get-in-touch-text:hover {
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.get-in-touch-text:focus {
+  background: #5e42d7;
+}
+
+form button:hover {
+  outline: none;
+}
+
+.social-footer {
+  padding-top: 25px;
+}
+
+.footer-email {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: #ebebff;
+}
+
+.dividing-line-footer {
+  margin: 71px 1px auto 1px;
+  overflow: hidden;
+  border-bottom: 1px solid #646369;
+  width: 100%;
 }
