@@ -12,7 +12,15 @@
 <body>
 	<header> <a href="#"><h1 class="header-text">Alick Nyirenda </h1></a>
 		<div class="background-image-top-left"></div>
-		<nav> <a href="#"><i class="header-icon fa fa-bars fa-lg"></i></a> </nav>
+		<nav> 
+			<a class="header-icon-nav" href="#"><i class="header-icon fa fa-bars fa-lg"></i></a>
+			<ul class="header-links-container-desktop">
+				<li> <a href="#" class="header-icon-text">Portfolio</a> </li>
+				<li> <a href="#" class="header-icon-text">About</a> </li>
+				<li> <a href="#"class="header-icon-text">Contact</a> </li>
+				<li> <i class="far fa-envelope"></i> </li>
+			</ul> 
+		</nav>
 	</header>
 	<main>
 		<section class="headline">
@@ -91,13 +99,15 @@
 					<p class="work-arrow-text">Work</p>
 				</div>  
 			</li>
-			<ul class="social-icon-list">
-				<li><a href="#"><i class="social-icon fa fa-2x fa-github"></i></a></li>
-				<li><a href="#"><i class="social-icon fa fa-2x fa-linkedin"></i></a></li>
-				<li><a href="#"><i class="social-icon fa fa-2x fa-angellist clr-secondary"></i></a></li>
-				<li><a href="#"><i class="social-icon fa fa-2x fa-twitter"></i></a></li>
-				<li><a href="#"><i class="social-icon fa fa-2x fa-medium"></i></a></li>
-		  	</ul>
+			<li>
+				<ul class="social-icon-list">
+					<li><a href="#"><i class="social-icon fa fa-2x fa-github"></i></a></li>
+					<li><a href="#"><i class="social-icon fa fa-2x fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="social-icon fa fa-2x fa-angellist clr-secondary"></i></a></li>
+					<li><a href="#"><i class="social-icon fa fa-2x fa-twitter"></i></a></li>
+					<li><a href="#"><i class="social-icon fa fa-2x fa-medium"></i></a></li>
+		  		</ul>
+			</li>
 			<li>
 				<div class="work-arrow-container-desktop"> <span class="work-arrow"></span>
 					<p class="work-arrow-text">Work</p>
@@ -108,12 +118,13 @@
 			<p class="work-arrow-text">Work</p>
 		</div>
 
-		<h3 class="works-headline">My recent work</h3>
+	
 		<section class="works-section">
 			
 			<ul class="grid-container">
+				<li><h3 class="works-headline">My recent work</h3></li>
 				<li>
-					<div class="dividing-line"></div>
+					<div class="dividing-line dividing-line-works-desktop"></div>
 				</li>
 				<li>
 					<ul class="work-card-container-outer">
@@ -258,14 +269,14 @@
 					</li>
 				</ul>
 			</form>
-      <div class="dividing-line-footer"></div>
-      <ul class="social social-footer social-footer-desktop">
+      <div class="dividing-line-footer dividing-line-footer-desktop"></div>
+      <ul class="social-footer social-footer-desktop">
 				<li><a href="#"><i class="social-icon fa fa-2x fa-github"></i></a></li>
 				<li><a href="#"><i class="social-icon fa fa-2x fa-linkedin"></i></a></li>
 				<li><a href="#"><i class="social-icon fa fa-2x fa-angellist clr-secondary"></i></a></li>
 				<li><a href="#"><i class="social-icon fa fa-2x fa-twitter"></i></a></li>
 				<li><a href="#"><i class="social-icon fa fa-2x fa-medium"></i></a></li>
-				<p class="footer-email-desktop">nyirenda_a@zoho.com</p>
+				<li><p class="footer-email-desktop">nyirenda_a@zoho.com</p></li>
 			</ul>
       <p class="footer-email">nyirenda_a@zoho.com</p>
   </footer>
