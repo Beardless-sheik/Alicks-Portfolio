@@ -6,6 +6,10 @@ This repository contains the codebase for my portfolio
 
 - HTML & CSS
 
+## Built With
+
+Live Project Link: https://beardless-sheik.github.io/Alicks-Portfolio/ 
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps. Clone the repository to your local computer and open index.html in your browser.
@@ -13,8 +17,6 @@ To get a local copy up and running follow these simple example steps. Clone the 
 To edit files, proceed to edit index.html and index.css
 
 ## Authors
-
-👤 **Author1**
 
 - GitHub: [@beardless-sheik](https://github.com/Beardless-sheik)
 - Twitter [@beardless-sheik](https://twitter.com/Beardless_Sheik)
