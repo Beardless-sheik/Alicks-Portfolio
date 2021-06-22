@@ -147,9 +147,9 @@ main {
   position: absolute;
   width: 68px;
   height: 68px;
-  left: 17rem;
+  left: 16rem;
   top: 495px;
-  filter: blur(50px);
+  filter: blur(80px);
 }
 
 .social a {
@@ -630,7 +630,7 @@ form button:hover {
   }
 
   .dividing-line-footer-desktop {
-    width: 100vw;
+    width: 98vw;
     margin-left: calc(-50vw + 50%);
     margin-top: 106px;
   }
@@ -685,9 +685,9 @@ form button:hover {
     position: absolute;
     width: 226px;
     height: 226px;
-    left: 1143px;
+    left: 880px;
     top: 546px;
-    filter: blur(50px);
+    filter: blur(90px);
   }
 
   .background-image-top-left {
@@ -720,7 +720,7 @@ form button:hover {
     position: absolute;
     width: 108px;
     height: 402px;
-    left: 1513.28px;
+    left: 793.28px;
     top: 2257.74px;
     filter: blur(50px);
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
@@ -741,11 +741,11 @@ form button:hover {
     background: #edecff;
     background-image: url("./images/elipse-multi-post-4.jpg");
     position: absolute;
-    width: 246.19px;
+    width: 64.19px;
     height: 916.38px;
-    left: 1090.3px;
+    left: 40rem;
     top: 2934px;
-    filter: blur(100px);
-    transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
+    filter: blur(60px);
+    transform: matrix(-0.26, 0.93, 0.93, 0.26, 0, 0);
   }
 }
