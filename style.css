@@ -515,6 +515,90 @@ form button:hover {
   display: none;
 }
 
+.hide-mobile-content {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu nav {
+  width: 100%;
+}
+
+.mobile-menu ul li{
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 2.5rem 3.25rem auto;
+  line-height: 2.75rem;
+
+}
+
+.mobile-menu-nav-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #edecff;
+
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.mobile-menu ul li i{
+color: #7d73fc;
+/* padding-left: 20.5rem; */
+margin-bottom: 4rem;
+}
+
+.mobile-menu-text {
+  width: 80%;
+}
+
+.close-icon {
+  color: #edecff;
+  font-size: 2rem;
+  align-self: end;
+  margin-right: 7.375rem;
+  margin-top: 3.875rem;
+}
+
+.mobile-backgrond-image-1 {
+  background-image: url("./images/mobile-backgrond-image-1.jpg");
+  position: absolute;
+  width: 226px;
+  height: 427px;
+  left: 42.04px;
+  top: 92px;
+  background: rgba(237, 236, 255, 0.4);
+  filter: blur(50px);
+  transform: rotate(25.09deg);
+}
+
+.mobile-backgrond-image-2 {
+  background-image: url("./images/mobile-background-image-2.jpg");
+  position: absolute;
+  width: 420.13px;
+  height: 244.06px;
+  left: 318.94px;
+  top: 432.54px;
+  background: rgba(237, 236, 255, 0.9);
+  filter: blur(50px);
+  transform: rotate(40.52deg);
+  background: #EDECFFE5;
+
+}
+
+.show-mobile-menu {
+  display: block
+}
+
 @media only screen and (max-width: 991px) {
   .works-headline {
     text-transform: uppercase;
