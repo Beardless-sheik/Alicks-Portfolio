@@ -40,7 +40,7 @@ main {
 
 .background-image-top-left {
   background: #edecff;
-  background-image: url("./images/elipse-top-left.jpg");
+  background-image: url('./images/elipse-top-left.jpg');
   background-repeat: no-repeat;
   position: absolute;
   width: 160px;
@@ -142,7 +142,7 @@ main {
 
 .background-image-middle-right {
   background: #edecff;
-  background-image: url("./images/elipse-middle-right.jpg");
+  background-image: url('./images/elipse-middle-right.jpg');
   background-repeat: no-repeat;
   position: absolute;
   width: 68px;
@@ -184,7 +184,7 @@ main {
 
 .work-arrow {
   background: #191765;
-  background-image: url("./images/work-arrow.jpg");
+  background-image: url('./images/work-arrow.jpg');
   width: 1.125rem;
   height: 22px;
   left: 2px;
@@ -230,7 +230,7 @@ main {
 
 .elipse-multi-post {
   background: #edecff;
-  background-image: url("./images/elipse-multi-post.jpg");
+  background-image: url('./images/elipse-multi-post.jpg');
   position: absolute;
   width: 49.61px;
   height: 462.57px;
@@ -242,7 +242,7 @@ main {
 
 .elipse-multi-post-2 {
   background: #edecff;
-  background-image: url("./images/elipse-multi-post-2.jpg");
+  background-image: url('./images/elipse-multi-post-2.jpg');
   position: absolute;
   width: 48.28px;
   height: 221.6px;
@@ -255,7 +255,7 @@ main {
 
 .elipse-multi-post-3 {
   background: rgba(207, 186, 235, 0.3);
-  background-image: url("./images/elipse-multi-post-3.jpg");
+  background-image: url('./images/elipse-multi-post-3.jpg');
   position: absolute;
   width: 308px;
   height: 155px;
@@ -266,7 +266,7 @@ main {
 
 .elipse-multi-post-4 {
   background: #edecff;
-  background-image: url("./images/elipse-multi-post-4.jpg");
+  background-image: url('./images/elipse-multi-post-4.jpg');
   position: absolute;
   width: 41.29px;
   height: 357.04px;
@@ -527,14 +527,13 @@ form button:hover {
   width: 100%;
 }
 
-.mobile-menu ul li{
+.mobile-menu ul li {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
   margin: 2.5rem 3.25rem auto;
   line-height: 2.75rem;
-
 }
 
 .mobile-menu-nav-container {
@@ -551,10 +550,10 @@ form button:hover {
   grid-template-columns: 4fr 1fr;
 }
 
-.mobile-menu ul li i{
-color: #7d73fc;
-/* padding-left: 20.5rem; */
-margin-bottom: 4rem;
+.mobile-menu ul li i {
+  color: #7d73fc;
+  /* padding-left: 20.5rem; */
+  margin-bottom: 4rem;
 }
 
 .mobile-menu-text {
@@ -570,7 +569,7 @@ margin-bottom: 4rem;
 }
 
 .mobile-backgrond-image-1 {
-  background-image: url("./images/mobile-backgrond-image-1.jpg");
+  background-image: url('./images/mobile-backgrond-image-1.jpg');
   position: absolute;
   width: 226px;
   height: 427px;
@@ -582,7 +581,7 @@ margin-bottom: 4rem;
 }
 
 .mobile-backgrond-image-2 {
-  background-image: url("./images/mobile-background-image-2.jpg");
+  background-image: url('./images/mobile-background-image-2.jpg');
   position: absolute;
   width: 420.13px;
   height: 244.06px;
@@ -591,12 +590,18 @@ margin-bottom: 4rem;
   background: rgba(237, 236, 255, 0.9);
   filter: blur(50px);
   transform: rotate(40.52deg);
-  background: #EDECFFE5;
-
+  background: #edecffe5;
 }
 
 .show-mobile-menu {
-  display: block
+  display: block;
+}
+
+.mobile-menu .close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 3% 5%;
 }
 
 @media only screen and (max-width: 991px) {
@@ -764,7 +769,7 @@ margin-bottom: 4rem;
 
   .background-image-middle-right {
     background: #edecff;
-    background-image: url("./images/elipse-middle-right.jpg");
+    background-image: url('./images/elipse-middle-right.jpg');
     background-repeat: no-repeat;
     position: absolute;
     width: 226px;
@@ -776,7 +781,7 @@ margin-bottom: 4rem;
 
   .background-image-top-left {
     background: #edecff;
-    background-image: url("./images/elipse-top-left.jpg");
+    background-image: url('./images/elipse-top-left.jpg');
     background-repeat: no-repeat;
     position: absolute;
     width: 184px;
@@ -788,7 +793,7 @@ margin-bottom: 4rem;
 
   .elipse-multi-post {
     background: #edecff;
-    background-image: url("./images/elipse-multi-post.jpg");
+    background-image: url('./images/elipse-multi-post.jpg');
     position: absolute;
     width: 57.53px;
     height: 700.92px;
@@ -800,7 +805,7 @@ margin-bottom: 4rem;
 
   .elipse-multi-post-2 {
     background: #edecff;
-    background-image: url("./images/elipse-multi-post-2.jpg");
+    background-image: url('./images/elipse-multi-post-2.jpg');
     position: absolute;
     width: 108px;
     height: 402px;
@@ -812,7 +817,7 @@ margin-bottom: 4rem;
 
   .elipse-multi-post-3 {
     background: rgba(207, 186, 235, 0.3);
-    background-image: url("./images/elipse-multi-post-3.jpg");
+    background-image: url('./images/elipse-multi-post-3.jpg');
     position: absolute;
     width: 308px;
     height: 155px;
@@ -823,7 +828,7 @@ margin-bottom: 4rem;
 
   .elipse-multi-post-4 {
     background: #edecff;
-    background-image: url("./images/elipse-multi-post-4.jpg");
+    background-image: url('./images/elipse-multi-post-4.jpg');
     position: absolute;
     width: 64.19px;
     height: 916.38px;
