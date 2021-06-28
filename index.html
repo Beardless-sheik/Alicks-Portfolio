@@ -22,11 +22,26 @@
 
 </head>
 
-<body>
+<body id="body">
+	<div id="mobile-menu" class="mobile-menu">
+		<header>
+			<nav class="mobile-menu-nav-container">
+						<a class="close-icon" onclick="removeMenu()" href=""> <i class="fas fa-times"></i> </a>
+						<ul>
+							<li> <a onclick="removeMenu()" href=""> <span class="mobile-menu-text">Portfolio </span><i class="fas fa-chevron-right"></i> </a></li>
+							<li> <a onclick="removeMenu()" href=""> <span class="mobile-menu-text">About </span><i class="fas fa-chevron-right"></i> </a> </li>
+							<li> <a onclick="removeMenu()" href=""> <span class="mobile-menu-text">Contact </span> <i class="fas fa-chevron-right"></i> </a> </li>
+						</ul>
+			</nav>
+		</header>
+	</div>
+
+	<div id="mobile-container">
+		<div id="image2"></div> 
 	<header> <a href="#"><h1 class="header-text">Alick Nyirenda </h1></a>
 		<div class="background-image-top-left"></div>
 		<nav> 
-			<a class="header-icon-nav" href="#"><i class="header-icon fa fa-bars fa-lg"></i></a>
+			<a class="header-icon-nav" onclick="popUpMenu()" href="#"><i class="header-icon fa fa-bars fa-lg"></i></a>
 			<ul class="header-links-container-desktop">
 				<li> <a href="#" class="header-icon-text">Portfolio</a> </li>
 				<li> <a href="#" class="header-icon-text">About</a> </li>
@@ -293,7 +308,11 @@
 			</ul>
       <p class="footer-email">nyirenda_a@zoho.com</p>
   </footer>
+
+  <!-- Include Scripts for Production -->
 	<script src="https://kit.fontawesome.com/bc80da3d28.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./index.js"></script>
+	</div>
 </body>
 
 </html>
