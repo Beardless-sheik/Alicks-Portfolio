@@ -537,7 +537,7 @@ form button:hover {
 }
 
 .mobile-menu-nav-container {
-  display: flex;
+  display: grid;
   flex-direction: column;
 }
 
@@ -553,7 +553,8 @@ form button:hover {
 .mobile-menu ul li i {
   color: #7d73fc;
   /* padding-left: 20.5rem; */
-  margin-bottom: 4rem;
+  padding-top: 5px;
+  margin-bottom: 3.4rem;
 }
 
 .mobile-menu-text {
@@ -564,8 +565,12 @@ form button:hover {
   color: #edecff;
   font-size: 2rem;
   align-self: end;
-  margin-right: 7.375rem;
   margin-top: 3.875rem;
+  margin-bottom: 2rem;
+}
+
+.fas {
+  padding-left: 85%;
 }
 
 .mobile-backgrond-image-1 {
@@ -595,13 +600,6 @@ form button:hover {
 
 .show-mobile-menu {
   display: block;
-}
-
-.mobile-menu .close-icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 3% 5%;
 }
 
 @media only screen and (max-width: 991px) {
