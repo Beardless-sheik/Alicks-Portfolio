@@ -528,7 +528,7 @@ form button:hover {
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-  margin: 2.5rem 3.25rem auto;
+  margin: 0.5rem 3.25rem 0.5rem;
   line-height: 2.75rem;
 }
 
@@ -559,8 +559,8 @@ form button:hover {
   color: #edecff;
   font-size: 2rem;
   align-self: end;
-  margin-top: 3.875rem;
-  margin-bottom: 2rem;
+  margin-top: 1.875rem;
+  margin-bottom: 1.25rem;
 }
 
 .fas {
@@ -573,6 +573,28 @@ form button:hover {
 
 .see-project-button a:hover {
   text-decoration: none;
+}
+
+.mobile-background-image-1 {
+  position: absolute;
+  width: 196px;
+  height: 427px;
+  left: 22.04px;
+  top: 92px;
+  background: rgba(237, 236, 255, 0.4);
+  filter: blur(60px);
+  transform: rotate(25.09deg);
+}
+
+.mobile-background-image-2 {
+  position: absolute;
+  width: 420.13px;
+  height: 244.06px;
+  left: 318.94px;
+  top: 532.54px;
+  background: rgba(237, 236, 255, 0.9);
+  filter: blur(70px);
+  transform: rotate(40.52deg);
 }
 
 @media only screen and (max-width: 991px) {
