@@ -165,10 +165,6 @@ main {
   color: #dbd8d7;
 }
 
-.see-project-button a:hover {
-  text-decoration: none;
-}
-
 .social {
   display: flex;
 }
@@ -545,14 +541,12 @@ form button:hover {
   list-style-type: none;
   text-decoration: none;
   color: #edecff;
-
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
 
 .mobile-menu ul li i {
   color: #7d73fc;
-  /* padding-left: 20.5rem; */
   padding-top: 5px;
   margin-bottom: 3.4rem;
 }
@@ -573,33 +567,12 @@ form button:hover {
   padding-left: 85%;
 }
 
-.mobile-backgrond-image-1 {
-  background-image: url('./images/mobile-backgrond-image-1.jpg');
-  position: absolute;
-  width: 226px;
-  height: 427px;
-  left: 42.04px;
-  top: 92px;
-  background: rgba(237, 236, 255, 0.4);
-  filter: blur(50px);
-  transform: rotate(25.09deg);
-}
-
-.mobile-backgrond-image-2 {
-  background-image: url('./images/mobile-background-image-2.jpg');
-  position: absolute;
-  width: 420.13px;
-  height: 244.06px;
-  left: 318.94px;
-  top: 432.54px;
-  background: rgba(237, 236, 255, 0.9);
-  filter: blur(50px);
-  transform: rotate(40.52deg);
-  background: #edecffe5;
-}
-
 .show-mobile-menu {
   display: block;
+}
+
+.see-project-button a:hover {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 991px) {
