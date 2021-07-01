@@ -23,10 +23,12 @@
 </head>
 
 <body id="body">
+
+  <!-- Mobile Menu HTML  -->
 	<div id="mobile-menu" class="mobile-menu">
 		<header>
 			<nav class="mobile-menu-nav-container">
-						<a class="close-icon remove-menu" href=""> <i class="fas fa-times"></i> </a>
+						<a class="close-icon remove-menu" href=""> <i class="mobile-menu-icon fas fa-times"></i> </a>
 						<ul>
 							<li> <a class="remove-menu" href=""> <span class="mobile-menu-text">Portfolio </span><i class="fas fa-chevron-right"></i> </a></li>
 							<li> <a class="remove-menu" href=""> <span class="mobile-menu-text">About </span><i class="fas fa-chevron-right"></i> </a> </li>
@@ -38,6 +40,21 @@
 		</header>
 	</div>
 
+  <!-- Pop Up Content HTML -->
+    <div id="project" class="hide-project">
+      <div class="header-container">
+        <h1 class="pop-up-header-text"></h1>  <a id="close-icon-pop-up" href=""> <i class="pop-up-project-close-icon fas fa-times"></i> </a>
+      </div>
+      <img alt="pop-up-menu project image" class="pop-up-image">
+      <p class="pop-up-text-description"></p>
+      <ul class="pop-up-skill-item-container">
+      </ul>
+      <ul class="pop-up-button-container">
+      </ul>
+    </div>
+
+
+  <!-- Main Content HTML -->
 	<div id="mobile-container">
 		<div id="image2"></div> 
 	<header> <a href="#"><h1 class="header-text">Alick Nyirenda </h1></a>
@@ -178,7 +195,7 @@
 									</ul>
 								</li>
 								<li class="see-project-button">
-									<a href="#" class="see-project-text">
+									<a id="project1" href="#" class="see-project-text project1">
 										<p>See Project</p>
 									</a>
 								</li>
@@ -208,7 +225,7 @@
 									</ul>
 								</li>
 								<li class="see-project-button">
-									<a href="#" class="see-project-text">
+									<a id="project2" href="#" class="see-project-text project2">
 										<p>See Project</p>
 									</a>
 								</li>
@@ -238,7 +255,7 @@
 									</ul>
 								</li>
 								<li class="see-project-button">
-									<a href="#" class="see-project-text">
+									<a id="project3" href="#" class="see-project-text project3">
 										<p>See Project</p>
 									</a>
 								</li>
@@ -268,7 +285,7 @@
 									</ul>
 								</li>
 								<li class="see-project-button">
-									<a href="#" class="see-project-text">
+									<a id="project4" href="#" class="see-project-text">
 										<p>See Project</p>
 									</a>
 								</li>
