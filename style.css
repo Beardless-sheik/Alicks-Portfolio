@@ -413,6 +413,9 @@ input {
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 15px 1px 15px;
 }
 
 textarea {
@@ -698,6 +701,14 @@ div .show-project {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+input:valid {
+  background: #f7f3ff;
+}
+
+input:invalid {
+  border: 1px solid red;
 }
 
 @media only screen and (max-width: 991px) {
