@@ -56,7 +56,7 @@ const projectData = [{
       liveLink: 'https://github.com/Beardless-sheik',
     },
     {
-      sourceIcon: './images/icons/IcfgonGitHub.svg',
+      sourceIcon: './images/icons/IconGitHub.svg',
       sourceLink: 'https://github.com/Beardless-sheik',
     },
   ],
