@@ -154,12 +154,13 @@ projectButton4.addEventListener('click', popUpProject);
 const popUpPojectCloseIcon = document.querySelector('.pop-up-project-close-icon');
 popUpPojectCloseIcon.addEventListener('click', removeProject);
 
-// Implementation of custom error message if "lowercase-email" according to RegEx pattern in email input isn't inputed
-let email = document.querySelector('input[type="email"]');
-email.addEventListener("invalid", function (event) {
+/* Implementation of custom error message if "lowercase-email" according to RegEx pattern in
+email input isn't inputed */
+const email = document.querySelector('input[type="email"]');
+email.addEventListener('invalid', () => {
   if (!email.validity.valid) {
-    email.setCustomValidity("Please use a lowercase  e-mail address!");
+    email.setCustomValidity('Please use a lowercase  e-mail address!');
   } else {
-    email.setCustomValidity("");
+    email.setCustomValidity('');
   }
 });
