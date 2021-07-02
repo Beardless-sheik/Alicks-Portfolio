@@ -711,6 +711,12 @@ input:invalid {
   border: 1px solid red;
 }
 
+.validation-error-password {
+  border-color: lightblue;
+  color: #8a82f8;
+  padding-left: 15px;
+}
+
 @media only screen and (max-width: 991px) {
   .works-headline {
     text-transform: uppercase;
