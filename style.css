@@ -713,7 +713,7 @@ input:invalid {
 
 .validation-error-password {
   border-color: lightblue;
-  color: #8a82f8;
+  color: #fff;;
   padding-left: 15px;
 }
 
