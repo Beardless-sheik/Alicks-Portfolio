@@ -1,6 +1,6 @@
 # Alick's Portfolio
 
->Welcome to my Portofolio, with two main versions (mobile and desktop). The 2 versions have been styled in plain CSS using media queries. They will have descriptions on my most important personal projects, my dev skills and a contact for that you can use to reach me. The contact for is done using a service called [Formspree](https://formspree.io/).
+Welcome to my Portofolio, with two main versions (mobile and desktop). The 2 versions have been styled in plain CSS using media queries. They will have descriptions on my most important personal projects, my dev skills and a contact for that you can use to reach me. The contact for is done using a service called [Formspree](https://formspree.io/).
 
 ## Built With
 
