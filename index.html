@@ -30,9 +30,9 @@
 			<nav class="mobile-menu-nav-container">
 						<a class="close-icon remove-menu" href=""> <i class="mobile-menu-icon fas fa-times"></i> </a>
 						<ul>
-							<li> <a class="remove-menu" href=""> <span class="mobile-menu-text">Portfolio </span><i class="fas fa-chevron-right"></i> </a></li>
-							<li> <a class="remove-menu" href=""> <span class="mobile-menu-text">About </span><i class="fas fa-chevron-right"></i> </a> </li>
-							<li> <a class="remove-menu" href=""> <span class="mobile-menu-text">Contact </span> <i class="fas fa-chevron-right"></i> </a> </li>
+							<li> <a class="remove-menu" href="#works-section"> <span class="mobile-menu-text">Portfolio </span><i class="fas fa-chevron-right"></i> </a></li>
+							<li> <a class="remove-menu" href="#about-section"> <span class="mobile-menu-text">About </span><i class="fas fa-chevron-right"></i> </a> </li>
+							<li> <a class="remove-menu" href="#contact-section"> <span class="mobile-menu-text">Contact </span> <i class="fas fa-chevron-right"></i> </a> </li>
 						</ul>
 			</nav>
       <span class="mobile-background-image-1"></span>
@@ -41,7 +41,7 @@
 	</div>
 
   <!-- Pop Up Content HTML -->
-    <div id="project" class="hide-project">
+    <section id="project" class="hide-project">
       <div class="header-container">
         <h1 class="pop-up-header-text"></h1>  <a id="close-icon-pop-up" href=""> <i class="pop-up-project-close-icon fas fa-times"></i> </a>
       </div>
@@ -51,7 +51,7 @@
       </ul>
       <ul class="pop-up-button-container">
       </ul>
-    </div>
+    </section>
 
 
   <!-- Main Content HTML -->
@@ -62,9 +62,9 @@
 		<nav> 
 			<a class="header-icon-nav" href="#"><i class="header-icon fa fa-bars fa-lg"></i></a>
 			<ul class="header-links-container-desktop">
-				<li> <a href="#" class="header-icon-text">Portfolio</a> </li>
-				<li> <a href="#" class="header-icon-text">About</a> </li>
-				<li> <a href="#" class="header-icon-text">Contact</a> </li>
+				<li> <a href="#works-section" class="header-icon-text">Portfolio</a> </li>
+				<li> <a href="#about-section" class="header-icon-text">About</a> </li>
+				<li> <a href="#contact-section" class="header-icon-text">Contact</a> </li>
 				<li> <i class="far fa-envelope"></i> </li>
 			</ul> 
 		</nav>
@@ -74,7 +74,7 @@
 			<h3 class="headline-text-1">Alick Nyirenda</h3>
 			<p class="headline-text-2">Software Developer</p>
 		</section>
-		<section class="headline-2">
+		<section class="headline-2" id="about-section">
 			<p class="headline-text-3">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
 			<div class="dividing-line"></div>
 			<div class="skills-container">
@@ -104,7 +104,7 @@
 							<p class="skill-item-title">Frameworks</p>
 						</li>
 						<li>
-							<p class="skill-item-language">Bootstrap</p>
+							<p class="skill-item-language">Next.js</p>
 						</li>
 						<li>
 							<p class="skill-item-language">Ruby on Rails</p>
@@ -113,7 +113,7 @@
 							<p class="skill-item-language">Express</p>
 						</li>
 						<li>
-							<p class="skill-item-language">Selenium</p>
+							<p class="skill-item-language">React Native</p>
 						</li>
 					</ul>
 				</div>
@@ -123,16 +123,16 @@
 							<p class="skill-item-title">Skils</p>
 						</li>
 						<li>
-							<p class="skill-item-language">Terminal</p>
+							<p class="skill-item-language">Proactive</p>
 						</li>
 						<li>
-							<p class="skill-item-language">Github</p>
+							<p class="skill-item-language">Version Control</p>
 						</li>
 						<li>
-							<p class="skill-item-language">Gitlab</p>
+							<p class="skill-item-language">Agile Programming</p>
 						</li>
 						<li>
-							<p class="skill-item-language">Codepen</p>
+							<p class="skill-item-language">Constatntly Building!</p>
 						</li>
 					</ul>
 				</div>
@@ -148,11 +148,10 @@
 			</li>
 			<li class="social-icon-list-container">
 				<ul class="social-icon-list">
-					<li><a href="#"><i class="social-icon fa fa-2x fa-github"></i></a></li>
-					<li><a href="#"><i class="social-icon fa fa-2x fa-linkedin"></i></a></li>
-					<li><a href="#"><i class="social-icon fa fa-2x fa-angellist clr-secondary"></i></a></li>
-					<li><a href="#"><i class="social-icon fa fa-2x fa-twitter"></i></a></li>
-					<li><a href="#"><i class="social-icon fa fa-2x fa-medium"></i></a></li>
+					<li><a href="https://github.com/Beardless-sheik"><i class="social-icon fa fa-2x fa-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/alick-nyirenda/"><i class="social-icon fa fa-2x fa-linkedin"></i></a></li>
+					<li><a href="https://angel.co/u/nyirenda-alick"><i class="social-icon fa fa-2x fa-angellist clr-secondary"></i></a></li>
+					<li><a href="https://twitter.com/Beardless_Sheik"><i class="social-icon fa fa-2x fa-twitter"></i></a></li>
 		  		</ul>
 			</li>
 			<li>
@@ -166,8 +165,7 @@
 		</div>
 
 	
-		<section class="works-section">
-			
+		<section class="works-section" id="works-section">
 			<ul class="grid-container">
 				<li><h3 class="works-headline">My recent work</h3></li>
 				<li>
@@ -297,36 +295,38 @@
 		</section>
 	</main>
   <footer>
-			<h2>Contact me</h2>
-			<p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-			<form action="https://formspree.io/f/xoqywlrd" method="POST">
-				<ul>
-					<li class="name-input-container">
-						<label for="name"></label>
-						<input type="text" id="name" name="user_name" maxlength="30" placeholder="Please insert your name" required> </li>
-					<li class="email-input-container">
-						<label for="email"></label>
-						<input type="email" id="email" name="user_email" placeholder="Please insert your email" required pattern="^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$"> </li>
-					<li class="text-area-container">
-						<label for="message"></label>
-						<textarea name="text" id="message" maxlength="500" required placeholder="Enter Text Here"></textarea>
-					</li>
-					<li class="get-in get-in-touch-button">
-						<button class="get-in-touch-text" type="submit">Get in touch</button> 
-            <span class="validation-error-password"></span>
-					</li>
-				</ul>
-			</form>
-      <div class="dividing-line-footer dividing-line-footer-desktop"></div>
-      <ul class="social-footer social-footer-desktop">
-				<li><a href="#"><i class="social-icon fa fa-2x fa-github"></i></a></li>
-				<li><a href="#"><i class="social-icon fa fa-2x fa-linkedin"></i></a></li>
-				<li><a href="#"><i class="social-icon fa fa-2x fa-angellist clr-secondary"></i></a></li>
-				<li><a href="#"><i class="social-icon fa fa-2x fa-twitter"></i></a></li>
-				<li><a href="#"><i class="social-icon fa fa-2x fa-medium"></i></a></li>
-				<li><p class="footer-email-desktop">nyirenda_a@zoho.com</p></li>
-			</ul>
-      <p class="footer-email">nyirenda_a@zoho.com</p>
+        <section id="contact-section">
+        <h2>Contact me</h2>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+        <form action="https://formspree.io/f/xoqywlrd" method="POST">
+          <ul>
+            <li class="name-input-container">
+              <label for="name"></label>
+              <input type="text" id="name" name="user_name" maxlength="30" placeholder="Please insert your name" required> </li>
+            <li class="email-input-container">
+              <label for="email"></label>
+              <input type="email" id="email" name="user_email" placeholder="Please insert your email" required pattern="^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$"> </li>
+            <li class="text-area-container">
+              <label for="message"></label>
+              <textarea name="text" id="message" maxlength="500" required placeholder="Enter Text Here"></textarea>
+            </li>
+            <li class="get-in get-in-touch-button">
+              <button class="get-in-touch-text" type="submit">Get in touch</button> 
+              <span class="validation-error-password"></span>
+            </li>
+          </ul>
+        </form>
+        <div class="dividing-line-footer dividing-line-footer-desktop"></div>
+        <ul class="social-footer social-footer-desktop">
+          <li><a href="#"><i class="social-icon fa fa-2x fa-github"></i></a></li>
+          <li><a href="#"><i class="social-icon fa fa-2x fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="social-icon fa fa-2x fa-angellist clr-secondary"></i></a></li>
+          <li><a href="#"><i class="social-icon fa fa-2x fa-twitter"></i></a></li>
+          <li><a href="#"><i class="social-icon fa fa-2x fa-medium"></i></a></li>
+          <li><p class="footer-email-desktop">nyirenda_a@zoho.com</p></li>
+        </ul>
+        <p class="footer-email">nyirenda_a@zoho.com</p>
+      </section>
   </footer>
 
   <!-- Include Scripts for Production -->
