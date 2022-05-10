@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
   background: #191765;
@@ -40,7 +40,7 @@ main {
 
 .background-image-top-left {
   background: #edecff;
-  background-image: url('./images/elipse-top-left.jpg');
+  background-image: url('./images/ellipse-top-left.jpg');
   background-repeat: no-repeat;
   position: absolute;
   width: 160px;
