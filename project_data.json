@@ -1,0 +1,90 @@
+[
+  {
+    "key": "project1",
+    "title": "Multi Post stories - 1",
+    "imageSrc": "/images/pop-up-menu-image.jpeg",
+    "projectTextDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum \n  is simply dummy text of the printing and typesetting  ever since the 1500s, \n  when an unknown printer took a galley of type veris lapoa todoe",
+    "technoogies": [
+      "Javascript",
+      "Ruby",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "liveIcon": "./images/icons/IconExport.svg",
+        "liveLink": "https://github.com/Beardless-sheik"
+      },
+      {
+        "sourceIcon": "./images/icons/IconGitHub.svg",
+        "sourceLink": "https://github.com/Beardless-sheik"
+      }
+    ]
+  },
+  {
+    "key": "project2",
+    "title": "Multi Post stories - 2",
+    "imageSrc": "./images/pop-up-menu-image.jpeg",
+    "projectTextDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum \n  is simply dummy text of the printing and typesetting  ever since the 1500s, \n  when an unknown printer took a galley of type veris lapoa todoe",
+    "technoogies": [
+      "Javascript",
+      "Express",
+      "HTML",
+      "SQL"
+    ],
+    "links": [
+      {
+        "liveIcon": "./images/icons/IconExport.svg",
+        "liveLink": "https://github.com/Beardless-sheik"
+      },
+      {
+        "sourceIcon": "./images/icons/IconGitHub.svg",
+        "sourceLink": "https://github.com/Beardless-sheik"
+      }
+    ]
+  },
+  {
+    "key": "project3",
+    "title": "Multi Post stories - 3",
+    "imageSrc": "./images/pop-up-menu-image.jpeg",
+    "projectTextDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum \n  is simply dummy text of the printing and typesetting  ever since the 1500s, \n  when an unknown printer took a galley of type veris lapoa todoe",
+    "technoogies": [
+      "Javascript",
+      "Ruby",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "liveIcon": "./images/icons/IconExport.svg",
+        "liveLink": "https://github.com/Beardless-sheik"
+      },
+      {
+        "sourceIcon": "./images/icons/IconGitHub.svg",
+        "sourceLink": "https://github.com/Beardless-sheik"
+      }
+    ]
+  },
+  {
+    "key": "project4",
+    "title": "Multi Post stories - 4",
+    "imageSrc": "./images/pop-up-menu-image.jpeg",
+    "projectTextDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum \n  is simply dummy text of the printing and typesetting  ever since the 1500s, \n  when an unknown printer took a galley of type veris lapoa todoe",
+    "technoogies": [
+      "Javascript",
+      "Ruby",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "liveIcon": "./images/icons/IconExport.svg",
+        "liveLink": "https://github.com/Beardless-sheik"
+      },
+      {
+        "sourceIcon": "./images/icons/IconGitHub.svg",
+        "sourceLink": "https://github.com/Beardless-sheik"
+      }
+    ]
+  }
+]

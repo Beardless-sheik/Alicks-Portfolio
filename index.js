@@ -1,88 +1,7 @@
-const projectData = [{
-  key: 'project1',
-  title: 'Multi Post stories - 1',
-  imageSrc: '/images/pop-up-menu-image.jpeg',
-  projectTextDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum 
-  is simply dummy text of the printing and typesetting  ever since the 1500s, 
-  when an unknown printer took a galley of type veris lapoa todoe`,
-  technoogies: ['Javascript', 'Ruby', 'HTML', 'CSS'],
-  links: [
-    {
-      liveIcon: './images/icons/IconExport.svg',
-      liveLink: 'https://github.com/Beardless-sheik',
-    },
-    {
-      sourceIcon: './images/icons/IconGitHub.svg',
-      sourceLink: 'https://github.com/Beardless-sheik',
-    },
-  ],
-},
-{
-  key: 'project2',
-  title: 'Multi Post stories - 2',
-  imageSrc: './images/pop-up-menu-image.jpeg',
-  projectTextDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum 
-  is simply dummy text of the printing and typesetting  ever since the 1500s, 
-  when an unknown printer took a galley of type veris lapoa todoe`,
-  technoogies: ['Javascript', 'Express', 'HTML', 'SQL'],
-  links: [
-    {
-      liveIcon: './images/icons/IconExport.svg',
-      liveLink: 'https://github.com/Beardless-sheik',
-    },
-    {
-      sourceIcon: './images/icons/IconGitHub.svg',
-      sourceLink: 'https://github.com/Beardless-sheik',
-    },
-  ],
-},
-{
-  key: 'project3',
-  title: 'Multi Post stories - 3',
-  imageSrc: './images/pop-up-menu-image.jpeg',
-  projectTextDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum 
-  is simply dummy text of the printing and typesetting  ever since the 1500s, 
-  when an unknown printer took a galley of type veris lapoa todoe`,
-  technoogies: ['Javascript', 'Ruby', 'HTML', 'CSS'],
-  links: [
-    {
-      liveIcon: './images/icons/IconExport.svg',
-      liveLink: 'https://github.com/Beardless-sheik',
-    },
-    {
-      sourceIcon: './images/icons/IconGitHub.svg',
-      sourceLink: 'https://github.com/Beardless-sheik',
-    },
-  ],
-},
-{
-  key: 'project4',
-  title: 'Multi Post stories - 4',
-  imageSrc: './images/pop-up-menu-image.jpeg',
-  projectTextDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum 
-  is simply dummy text of the printing and typesetting  ever since the 1500s, 
-  when an unknown printer took a galley of type veris lapoa todoe`,
-  technoogies: ['Javascript', 'Ruby', 'HTML', 'CSS'],
-  links: [
-    {
-      liveIcon: './images/icons/IconExport.svg',
-      liveLink: 'https://github.com/Beardless-sheik',
-    },
-    {
-      sourceIcon: './images/icons/IconGitHub.svg',
-      sourceLink: 'https://github.com/Beardless-sheik',
-    },
-  ],
-},
-];
+import projectDataJson from './project_data.json' assert {type: 'json'}
+
+// const projectData = JSON.parse(projectDataJson);
+console.log(projectData)
 
 function popUpMobileMenu() {
   document.querySelector('#mobile-container').classList.toggle('hide-main-mobile-content');
@@ -142,6 +61,8 @@ hamburger.addEventListener('click', popUpMobileMenu);
 const closeIcon = document.querySelector('.remove-menu');
 closeIcon.addEventListener('click', removeMobileMenu);
 
+// Implementatuon of a DRY implementation: 
+
 // Implementation of Events on Project Buttons
 const projectButton1 = document.querySelector('#project1');
 projectButton1.addEventListener('click', popUpProject);
@@ -153,17 +74,3 @@ const projectButton4 = document.querySelector('#project4');
 projectButton4.addEventListener('click', popUpProject);
 const popUpPojectCloseIcon = document.querySelector('.pop-up-project-close-icon');
 popUpPojectCloseIcon.addEventListener('click', removeProject);
-
-/* Implementation of custom error message if "lowercase-email" according to RegEx pattern in
-email input isn't inputed */
-const emailError = document.querySelector('.validation-error-password');
-const email = document.querySelector('input[type="email"]');
-email.addEventListener('invalid', (error) => {
-  error.preventDefault();
-  if (!email.validity.valid) {
-    emailError.textContent = 'Please use a lowercase  e-mail address';
-  } else {
-    email.setCustomValidity('');
-    emailError.textContent = '';
-  }
-});
