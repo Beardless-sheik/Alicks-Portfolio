@@ -15,6 +15,10 @@ main {
   justify-content: center;
 }
 
+a {
+  cursor: pointer;
+}
+
 .header-text {
   height: 1rem;
   margin: 20px 24px;
@@ -341,11 +345,11 @@ main {
 }
 
 .see-project-text {
+  width: 100%;
+  margin: auto;
+  padding: 10px 14px;
   font-family: Roboto, sans-serif;
   font-style: normal;
-  padding-left: 15px;
-  padding-right: 2px;
-  padding-top: 4px;
   font-weight: 500;
   font-size: 12px;
   align-items: center;
