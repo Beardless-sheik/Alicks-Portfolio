@@ -8,7 +8,6 @@ function addEventListenersOnLinks(...linkElements) {
     element.addEventListener('click', () => {
       document.querySelector('#mobile-container').classList.toggle('hide-main-mobile-content');
       document.querySelector('#mobile-menu').classList.toggle('show-mobile-menu');
-      console.log('clicked');
       if (element.id === 'mobile-work-link') {
         document.getElementById('works-section').scrollIntoView();
       }

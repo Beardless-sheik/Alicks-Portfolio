@@ -15,7 +15,7 @@ const implementMobilePopUp = (projectId, projectData) => {
   headerTitle.textContent = projectData[index].title;
   projectImage.src = projectData[index].imageSrc;
   projectDescription.textContent = projectData[index].projectTextDescription;
-  projectSkills.innerHTML = ''; 
+  projectSkills.innerHTML = '';
   projectData[index].technoogies.forEach((technologies) => {
     projectSkills.innerHTML += `<li>
           <p class="skill-item-language pop-up-skill-border">${technologies}</p>
@@ -43,60 +43,60 @@ const populateWorkProjects = (containerElement, projectData) => {
 
     if (index % 2 === 1) {
       containerElement.innerHTML += `<li>
-					<ul class="work-card-container-outer">
-						<li class="grid-order-last"><img src=${project.imageSrc} alt="image placeholder" class="image-placeholder"></li>
-						<li class="grid-order-first">
-							<ul class="work-card-container-inner">
-								<li>
-									<h4 class="work-card-heading">${project.title}</h4></li>
-								<li>
-									<div class="elipse-multi-post-3"></div>
-								</li>
-								<li>
-									<p class="work-card-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-								</li>
-								<li class="work-card-skills-container">
-									<ul class="work-card-skills-container">
-                  ${technologies}
-									</ul>
-								</li>
-								<li class="see-project-button">
-									<a id=${project.key} class="see-project-text">
-										See Project
-									</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>`;
+<ul class="work-card-container-outer">
+<li class="grid-order-last"><img src=${project.imageSrc} alt="image placeholder" class="image-placeholder"></li>
+<li class="grid-order-first">
+<ul class="work-card-container-inner">
+<li>
+<h4 class="work-card-heading">${project.title}</h4></li>
+<li>
+<div class="elipse-multi-post-3"></div>
+</li>
+<li>
+<p class="work-card-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+</li>
+<li class="work-card-skills-container">
+<ul class="work-card-skills-container">
+  ${technologies}
+</ul>
+</li>
+<li class="see-project-button">
+<a id=${project.key} class="see-project-text">
+See Project
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>`;
     } else {
       containerElement.innerHTML += `<li>
-					<ul class="work-card-container-outer">
-            <li class="grid-order-first"><img src=${project.imageSrc} alt="image placeholder" class="image-placeholder"></li>
-						<li class="grid-order-last">
-							<ul class="work-card-container-inner">
-								<li>
-									<h4 class="work-card-heading">${project.title}</h4></li>
-								<li>
-									<div class="elipse-multi-post-3"></div>
-								</li>
-								<li>
-									<p class="work-card-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-								</li>
-								<li class="work-card-skills-container">
-									<ul class="work-card-skills-container">
-                  ${technologies}
-									</ul>
-								</li>
-								<li class="see-project-button">
-									<a id=${project.key} class="see-project-text">
-										See Project
-									</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>`;
+<ul class="work-card-container-outer">
+<li class="grid-order-first"><img src=${project.imageSrc} alt="image placeholder" class="image-placeholder"></li>
+<li class="grid-order-last">
+<ul class="work-card-container-inner">
+<li>
+<h4 class="work-card-heading">${project.title}</h4></li>
+<li>
+<div class="elipse-multi-post-3"></div>
+</li>
+<li>
+<p class="work-card-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+</li>
+<li class="work-card-skills-container">
+<ul class="work-card-skills-container">
+     ${technologies}
+</ul>
+</li>
+<li class="see-project-button">
+<a id=${project.key} class="see-project-text">
+See Project
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>`;
     }
   });
 
