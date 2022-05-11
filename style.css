@@ -821,9 +821,13 @@ input:invalid {
   }
 
   .footer-email-desktop {
-    margin-left: 12px;
-    padding-bottom: 10px;
-    margin-top: 12px;
+    font-size: 1.75rem;
+  }
+
+  .footer-email-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
   }
 
   .social-footer-desktop {
