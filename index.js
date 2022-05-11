@@ -1,7 +1,73 @@
-import projectDataJson from './project_data.json' assert {type: 'json'}
+import projectData from './project_data.json' assert {type: 'json'}
 
 // const projectData = JSON.parse(projectDataJson);
 console.log(projectData)
+
+function populateWorkProjects(containerElement, projectData) {
+  projectData.forEach((project, index) => {
+    let technologies = '';
+    project.technoogies.forEach((technology) => {
+      technologies +=`<li class="work-card-skills-description">${technology}</li>`
+    })
+    
+    if(index % 2 === 1) {
+    containerElement.innerHTML += `<li>
+					<ul class="work-card-container-outer">
+						<li class="grid-order-last"><img src=${project.imageSrc} alt="image placeholder" class="image-placeholder"></li>
+						<li class="grid-order-first">
+							<ul class="work-card-container-inner">
+								<li>
+									<h4 class="work-card-heading">${project.title}</h4></li>
+								<li>
+									<div class="elipse-multi-post-3"></div>
+								</li>
+								<li>
+									<p class="work-card-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+								</li>
+								<li class="work-card-skills-container">
+									<ul class="work-card-skills-container">
+                  ${technologies}
+									</ul>
+								</li>
+								<li class="see-project-button">
+									<a id=${project.key} href="#" class="see-project-text project3">
+										<p>See Project</p>
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>` } else {
+          containerElement.innerHTML += `<li>
+					<ul class="work-card-container-outer">
+            <li class="grid-order-first"><img src=${project.imageSrc} alt="image placeholder" class="image-placeholder"></li>
+						<li class="grid-order-last">
+							<ul class="work-card-container-inner">
+								<li>
+									<h4 class="work-card-heading">${project.title}</h4></li>
+								<li>
+									<div class="elipse-multi-post-3"></div>
+								</li>
+								<li>
+									<p class="work-card-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+								</li>
+								<li class="work-card-skills-container">
+									<ul class="work-card-skills-container">
+                  ${technologies}
+									</ul>
+								</li>
+								<li class="see-project-button">
+									<a id=${project.key} href="#" class="see-project-text project3">
+										<p>See Project</p>
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>`          
+        }
+  })
+}
 
 function popUpMobileMenu() {
   document.querySelector('#mobile-container').classList.toggle('hide-main-mobile-content');
@@ -64,13 +130,18 @@ closeIcon.addEventListener('click', removeMobileMenu);
 // Implementatuon of a DRY implementation: 
 
 // Implementation of Events on Project Buttons
-const projectButton1 = document.querySelector('#project1');
-projectButton1.addEventListener('click', popUpProject);
-const projectButton2 = document.querySelector('#project2');
-projectButton2.addEventListener('click', popUpProject);
-const projectButton3 = document.querySelector('#project3');
-projectButton3.addEventListener('click', popUpProject);
-const projectButton4 = document.querySelector('#project4');
-projectButton4.addEventListener('click', popUpProject);
-const popUpPojectCloseIcon = document.querySelector('.pop-up-project-close-icon');
-popUpPojectCloseIcon.addEventListener('click', removeProject);
+// const projectButton1 = document.querySelector('#project1');
+// projectButton1.addEventListener('click', popUpProject);
+// const projectButton2 = document.querySelector('#project2');
+// projectButton2.addEventListener('click', popUpProject);
+// const projectButton3 = document.querySelector('#project3');
+// projectButton3.addEventListener('click', popUpProject);
+// const projectButton4 = document.querySelector('#project4');
+// projectButton4.addEventListener('click', popUpProject);
+// const popUpPojectCloseIcon = document.querySelector('.pop-up-project-close-icon');
+// popUpPojectCloseIcon.addEventListener('click', removeProject);
+
+window.addEventListener('DOMContentLoaded', (event) => {
+  const projectUlContainer = document.querySelector('#projects-list-container')
+  populateWorkProjects(projectUlContainer, projectData)
+});
