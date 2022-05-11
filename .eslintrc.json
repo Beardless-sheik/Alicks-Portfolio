@@ -21,7 +21,8 @@
   "rules": {
     "no-shadow": "off",
     "no-param-reassign": "off",
-    "eol-last": "off"
+    "eol-last": "off",
+    "import/extensions": [0, { "<js>": "always" }]
   },
   "ignorePatterns": ["dist/", "build/"]
 }

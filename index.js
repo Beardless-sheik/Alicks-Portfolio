@@ -1,6 +1,6 @@
 import projectData from './project_data.json' assert {type: 'json'};
-import populateWorkProjects from './modules/projects';
-import { toogleMobileMenu, addEventListenersOnLinks } from './modules/mobileMenu';
+import populateWorkProjects from './modules/projects.js';
+import { toogleMobileMenu, addEventListenersOnLinks } from './modules/mobileMenu.js';
 
 window.addEventListener('DOMContentLoaded', () => {
   // Implements Mobile Menu Actions
