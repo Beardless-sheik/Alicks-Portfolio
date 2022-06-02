@@ -1,6 +1,6 @@
 # Alick's Portfolio
 
-Welcome to my Portofolio, with two main versions (mobile and desktop). The 2 versions have been styled in plain CSS using media queries. They will have descriptions on my most important personal projects, my dev skills and a contact for that you can use to reach me. The contact for is done using a service called [Formspree](https://formspree.io/).
+Welcome to my Portofolio, with two main versions (mobile and desktop). The 2 versions have been styled in plain CSS using media queries. They will have descriptions on my most important personal projects, my dev skills and a contact for that you can use to reach me. The contact for is done using a service called [Formspree](https://formspree.io/). It is [live HERE](https://beardless-sheik.github.io/Alicks-Portfolio/). 
 
 ![screenshot](https://user-images.githubusercontent.com/44676055/158033214-27476f35-a31b-48ec-a95a-c6c3acd655d0.png)
 
@@ -60,7 +60,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/) or create any!
 
-##Acknowledgements
+## Acknowledgements
 
 - The beautiful template is from the Microverse team that can be found on [Figma here](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=23%3A10).
 
