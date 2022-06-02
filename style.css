@@ -104,6 +104,7 @@ a {
 }
 
 .image-placeholder {
+  border-radius: 15px;
   width: 17rem;
   height: 236px;
 }
@@ -642,6 +643,7 @@ div .show-project {
 }
 
 .pop-up-image {
+  border-radius: 40px;
   width: 100%;
 }
 
@@ -799,6 +801,7 @@ input:invalid {
   }
 
   .image-placeholder {
+    border-radius: 30px;
     width: 85%;
     height: 85%;
   }

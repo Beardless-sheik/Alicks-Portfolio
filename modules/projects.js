@@ -53,7 +53,7 @@ const populateWorkProjects = (containerElement, projectData) => {
 <div class="elipse-multi-post-3"></div>
 </li>
 <li>
-<p class="work-card-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+<p class="work-card-description"> ${project.projectTextDescription} </p>
 </li>
 <li class="work-card-skills-container">
 <ul class="work-card-skills-container">
@@ -81,7 +81,7 @@ See Project
 <div class="elipse-multi-post-3"></div>
 </li>
 <li>
-<p class="work-card-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+<p class="work-card-description"> ${project.projectTextDescription} </p>
 </li>
 <li class="work-card-skills-container">
 <ul class="work-card-skills-container">

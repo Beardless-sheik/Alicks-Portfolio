@@ -1,56 +1,56 @@
 [
   {
     "key": "project1",
-    "title": "Multi Post stories - 1",
-    "imageSrc": "/images/pop-up-menu-image.jpeg",
-    "projectTextDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum \n  is simply dummy text of the printing and typesetting  ever since the 1500s, \n  when an unknown printer took a galley of type veris lapoa todoe",
+    "title": "Vehicle Carbon Estimate Data App",
+    "imageSrc": "/images/vehicle_data_screenshot.png",
+    "projectTextDescription": "A Vehicle Carbon Estimate Data App. Built with React, Redux and Jest and connects to a vehicle Data API that reports vehicle esimate data.",
     "technoogies": [
-      "Javascript",
-      "Ruby",
-      "HTML",
-      "CSS"
+      "React",
+      "Redux",
+      "Jest",
+      "JavaScript"
     ],
     "links": [
       {
         "liveIcon": "./images/icons/IconExport.svg",
-        "liveLink": "https://github.com/Beardless-sheik"
+        "liveLink": "https://sad-meitner-38a530.netlify.app/"
       },
       {
         "sourceIcon": "./images/icons/IconGitHub.svg",
-        "sourceLink": "https://github.com/Beardless-sheik"
+        "sourceLink": "https://github.com/Beardless-sheik/Economics-Data-Webapp"
       }
     ]
   },
   {
     "key": "project2",
-    "title": "Multi Post stories - 2",
-    "imageSrc": "./images/pop-up-menu-image.jpeg",
-    "projectTextDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum \n  is simply dummy text of the printing and typesetting  ever since the 1500s, \n  when an unknown printer took a galley of type veris lapoa todoe",
+    "title": "Nkwashi-Conference Seminar",
+    "imageSrc": "https://user-images.githubusercontent.com/44676055/125154834-5c7f0080-e15c-11eb-8083-a1085a529ac6.png",
+    "projectTextDescription": " A fictious Nkwashi-Conference Seminar depicting african tech gurus meeting up for a 'Future Africa Summit'. The project is built using HTML5, CSS3 and Javascript. It was built with responsiveness in mind to accomodate any device the user would try and use to access the site.",
     "technoogies": [
       "Javascript",
-      "Express",
+      "CSS",
       "HTML",
-      "SQL"
+      "Formspree"
     ],
     "links": [
       {
         "liveIcon": "./images/icons/IconExport.svg",
-        "liveLink": "https://github.com/Beardless-sheik"
+        "liveLink": "https://beardless-sheik.github.io/nkwashi-conference/about.html"
       },
       {
         "sourceIcon": "./images/icons/IconGitHub.svg",
-        "sourceLink": "https://github.com/Beardless-sheik"
+        "sourceLink": "https://github.com/Beardless-sheik/nkwashi-conference"
       }
     ]
   },
   {
     "key": "project3",
-    "title": "Multi Post stories - 3",
-    "imageSrc": "./images/pop-up-menu-image.jpeg",
-    "projectTextDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum \n  is simply dummy text of the printing and typesetting  ever since the 1500s, \n  when an unknown printer took a galley of type veris lapoa todoe",
+    "title": "The TO-DO List",
+    "imageSrc": "https://raw.githubusercontent.com/Beardless-sheik/To-do-list/main/src/screenshots/mobile%20screenshot%20To%20Do%20List.png",
+    "projectTextDescription": "The most favoured 'To Do List' project that lets you add 'To do' items, remove them and sort them accordingly based on a booled 'completed' variable that can be checked/ unchecked by users. Sorting can also be done using Drag actions by the user. It is build using HTML, CSS and vanilla Javascript. Assets are built using Webpack",
     "technoogies": [
       "Javascript",
-      "Ruby",
+      "Webpack",
       "HTML",
       "CSS"
     ],
@@ -67,23 +67,23 @@
   },
   {
     "key": "project4",
-    "title": "Multi Post stories - 4",
-    "imageSrc": "./images/pop-up-menu-image.jpeg",
-    "projectTextDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \n  when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum \n  is simply dummy text of the printing and typesetting  ever since the 1500s, \n  when an unknown printer took a galley of type veris lapoa todoe",
+    "title": "React Image Uploader",
+    "imageSrc": "https://user-images.githubusercontent.com/44676055/158032039-7a16c12b-ed38-4341-8bd2-832f45eec5ae.JPG",
+    "projectTextDescription": "Image uploader built with JavaScript and CSS using the React framework on the front end, and a node.js backend using the Express framework for the Backend. A user is able to upload an image and the image is saved abd a URL is given to the user to actively share/ use that image by themselves.",
     "technoogies": [
-      "Javascript",
-      "Ruby",
-      "HTML",
-      "CSS"
+      "React",
+      "React Router",
+      "Express",
+      "MongoDB"
     ],
     "links": [
       {
         "liveIcon": "./images/icons/IconExport.svg",
-        "liveLink": "https://github.com/Beardless-sheik"
+        "liveLink": "https://boring-morse-fcd5f9.netlify.app/"
       },
       {
         "sourceIcon": "./images/icons/IconGitHub.svg",
-        "sourceLink": "https://github.com/Beardless-sheik"
+        "sourceLink": "https://github.com/Beardless-sheik/image-uploader"
       }
     ]
   }
