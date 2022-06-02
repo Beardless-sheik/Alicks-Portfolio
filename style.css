@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
   background: #191765;
@@ -13,6 +13,10 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+a {
+  cursor: pointer;
 }
 
 .header-text {
@@ -40,7 +44,7 @@ main {
 
 .background-image-top-left {
   background: #edecff;
-  background-image: url('./images/elipse-top-left.jpg');
+  background-image: url('./images/ellipse-top-left.jpg');
   background-repeat: no-repeat;
   position: absolute;
   width: 160px;
@@ -100,6 +104,7 @@ main {
 }
 
 .image-placeholder {
+  border-radius: 15px;
   width: 17rem;
   height: 236px;
 }
@@ -253,7 +258,7 @@ main {
   background: rgba(207, 186, 235, 0.3);
   background-image: url('./images/elipse-multi-post-3.jpg');
   position: absolute;
-  width: 308px;
+  width: 85px;
   height: 155px;
   left: -93px;
   top: 3174px;
@@ -341,11 +346,11 @@ main {
 }
 
 .see-project-text {
+  width: 100%;
+  margin: auto;
+  padding: 10px 14px;
   font-family: Roboto, sans-serif;
   font-style: normal;
-  padding-left: 15px;
-  padding-right: 2px;
-  padding-top: 4px;
   font-weight: 500;
   font-size: 12px;
   align-items: center;
@@ -638,6 +643,7 @@ div .show-project {
 }
 
 .pop-up-image {
+  border-radius: 40px;
   width: 100%;
 }
 
@@ -752,7 +758,7 @@ input:invalid {
   }
 
   .social {
-    margin: 6rem 8rem 12rem 8rem;
+    margin: 4rem 8rem 4rem 8rem;
   }
 
   .social-icon-list {
@@ -762,7 +768,7 @@ input:invalid {
   }
 
   .work-arrow-container-mobile {
-    visibility: hidden;
+    display: none;
   }
 
   .work-arrow-container-desktop {
@@ -774,8 +780,8 @@ input:invalid {
     text-transform: initial;
     font-size: 4rem;
     font-weight: 700;
-    margin-left: 8rem;
     text-align: initial;
+    margin-left: 8.5%;
   }
 
   .works-section {
@@ -795,8 +801,9 @@ input:invalid {
   }
 
   .image-placeholder {
-    width: 100%;
-    height: 100%;
+    border-radius: 30px;
+    width: 85%;
+    height: 85%;
   }
 
   .grid-container {
@@ -821,9 +828,13 @@ input:invalid {
   }
 
   .footer-email-desktop {
-    margin-left: 12px;
-    padding-bottom: 10px;
-    margin-top: 12px;
+    font-size: 1.75rem;
+  }
+
+  .footer-email-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
   }
 
   .social-footer-desktop {
@@ -932,11 +943,11 @@ input:invalid {
     background: rgba(207, 186, 235, 0.3);
     background-image: url('./images/elipse-multi-post-3.jpg');
     position: absolute;
-    width: 308px;
+    width: 200px;
     height: 155px;
     left: -41px;
-    top: 3048px;
-    filter: blur(80px);
+    top: 2348px;
+    filter: blur(130px);
   }
 
   .elipse-multi-post-4 {

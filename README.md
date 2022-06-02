@@ -28,6 +28,25 @@ $ git clone https://github.com/Beardless-sheik/Alicks-Portfolio.git
 - Open the index.html file in your browser!
 - Proceed to edit files and please create a new branch on your local copy and create a Pull request if you want contribute!
 
+## Test
+
+For tracking linter errors locally you need to follow these steps:
+
+- After cloning the project you need to run this command
+
+  > npm install
+  > This command will download all the dependancies of the project
+
+- For tracking the linter errors in HTML file run:
+
+  > npx hint .
+
+- And for tracking the linter errors in CSS file run:
+  > npx stylelint "**/*.css"
+
+- And for tracking the linter errors in JS file run:
+  > npx eslint . 
+
 
 ## Authors
 
